@@ -33,14 +33,14 @@
 // console.log("Str", str);
 // console.log("Array", array);
 
-// console.log("Ben app.js den geldim");
+console.log("Ben app.js den geldim");
 
-const dersler = [];
+// const dersler = [];
 // console.log("Dersler"),dersler,"Dersler uzunluğu:",dersler.length;
 
 
- dersler.push("PHP","HTML","CSS"); // Arrayın sonundan ekler.
- dersler.unshift("C#","F#",".NET CORE");
+//  dersler.push("PHP","HTML","CSS"); // Arrayın sonundan ekler.
+//  dersler.unshift("C#","F#",".NET CORE");
 
 // console.log("Dersler"),dersler,"Dersler uzunluğu:",dersler.length;
 
@@ -49,7 +49,7 @@ const dersler = [];
 
 // console.log("Dersler"),dersler,"Dersler uzunluğu:",dersler.length;
 
- dersler.push("Java", "Python");
+//  dersler.push("Java", "Python");
 
 // console.log("Dersler", dersler,"Dersler uzunluğu:", dersler.length);
 
@@ -88,13 +88,21 @@ const dersler = [];
 //    console.log("Ders", ders, "( Ders Index", index,") Diziler",array); 
 // });
 
-let sayi1 = 1;
-sayi1++;
-console.log(sayi++); // Burada önce Sayıyı yazar sonra artırır
-console.log(++sayi); // Burada sayıyı önce artırır yazıyı yazar
+// let sayi1 = 1;
+// sayi1++;
+// console.log(sayi++); // Burada önce Sayıyı yazar sonra artırır
+// console.log(++sayi); // Burada sayıyı önce artırır yazıyı yazar
+// sayi1 = ++sayi + sayi1++;
+// console.log(sayi1); // toplam sonuç 7
 
-while(i <dersler.length){
-    console.log("Ders");
+// while(i <=dersler.length){
+//     console.log("Ders",dersler);
+//     i++;
+// }
 
-    i++;
-}
+
+// onclick İŞLEM YAPILACAK BURADA BUTTONA TIKLANDIĞINDA İSTEĞİMİZ İŞLEM YAPILACAK 
+
+// function ButtonTiklama() {
+//     console.log("Button Tıklandı");
+// }
