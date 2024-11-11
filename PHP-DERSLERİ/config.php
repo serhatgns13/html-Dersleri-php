@@ -1,0 +1,7 @@
+<?php
+
+// BURASI SABİT TANIMLAR SEBİTLENEN URL LER HER TARAFTA SABİTLENEN ALANLARI KULLANA BİLİRİZ URL GİRMEDEN 
+
+
+define('APP_URL','http://localhost/html-Dersleri-php/PHP-DERSLERİ');
+define('APP_ROOT',__DIR__);
