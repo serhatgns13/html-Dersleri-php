@@ -88,7 +88,10 @@ const dersler = [];
 //    console.log("Ders", ders, "( Ders Index", index,") Diziler",array); 
 // });
 
-let i = 0; // girmesek while de sonsuz döngüye girer
+let sayi1 = 1;
+sayi1++;
+console.log(sayi++); // Burada önce Sayıyı yazar sonra artırır
+console.log(++sayi); // Burada sayıyı önce artırır yazıyı yazar
 
 while(i <dersler.length){
     console.log("Ders");
