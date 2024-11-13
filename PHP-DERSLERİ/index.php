@@ -48,10 +48,10 @@
 
 //    "Bilgisayar", // Tek boyutlu diziler
 //    "Siyah"
- 
+
 //  ];
 
- 
+
 // print_r($array)
 
 // var_dump($array);
@@ -63,7 +63,7 @@
 //     if ($key !== "products") {
 //         print "Anahtar : " . $key . " Değer : " . $value. "<hr/>";
 //     }
-  
+
 // }
 
 // print count($array);
@@ -82,9 +82,9 @@
 //     "Silgi",
 //     "Çanta",
 //     "Defter"
-  
+
 //   ];
- 
+
 //   $a = 0;
 
 // while ($a <= 6) {
@@ -148,7 +148,11 @@
 
 // print_r($_GET); 
 
-require_once __DIR__. '/config.php'; // dosyayı içeriye aktar bazı yerlede dosya aktarsamda sen bir kere olarak aktar anlamına geliyor
-print(APP_URL);
-print('<hr/>');
-print(APP_ROOT);
+require_once __DIR__ . '/config.php'; // dosyayı içeriye aktar bazı yerlede dosya aktarsamda sen bir kere olarak aktar anlamına geliyor
+// print(APP_URL);
+// print('<hr/>');
+// print(APP_ROOT);
+
+
+
+
